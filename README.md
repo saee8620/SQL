@@ -1,2 +1,2 @@
-Charlotte's Break Into Tech Example SQL Portfolio
-Welcome to my SQL Portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions: charlotte@breakintotech.academy
+Hassan Saeed's SQL Portfolio
+Welcome to my SQL Portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions: saee8620@gmail.com
