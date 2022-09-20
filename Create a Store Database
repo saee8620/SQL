@@ -1,0 +1,27 @@
+-- Create a Store Database
+
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, aisle INTEGER, price INTEGER, category TEXT);
+
+INSERT INTO store VALUES (1, "shirts", 1, 15, "clothing");
+INSERT INTO store VALUES (2, "jeans", 1, 25, "clothing");
+INSERT INTO store VALUES (3, "shoes", 1, 45, "clothing");
+INSERT INTO store VALUES (4, "deodrant", 2, 6, "personal hygiene");
+INSERT INTO store VALUES (5, "toothpaste", 2, 3, "personal hygiene");
+INSERT INTO store VALUES (6, "mouth wash", 2, 5, "personal hygiene");
+INSERT INTO store VALUES (7, "bread", 3, 2.5, "groceries");
+INSERT INTO store VALUES (8, "eggs", 3, 3, "groceries");
+INSERT INTO store VALUES (9, "milk", 3, 6, "groceries");
+INSERT INTO store VALUES (10, "youghurt", 3, 2, "groceries");
+INSERT INTO store VALUES (11, "dressers", 4, 350, "furniture");
+INSERT INTO store VALUES (12, "sofa", 4, 550, "furniture");
+INSERT INTO store VALUES (13, "mattress", 4, 550, "furniture");
+INSERT INTO store VALUES (14, "tennis balls", 5, 8, "sports");
+INSERT INTO store VALUES (15, "soccer ball", 5, 5, "sports");
+
+-- Show the store table in order of lowest to hight price
+
+Select * FROM store ORDER BY price;
+
+-- Show the total price for all items stored in aisle 1
+
+SELECT sum(price) FROM store WHERE aisle = 1
